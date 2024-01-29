@@ -6,4 +6,20 @@ public class Bateria{
         this.duracion = duracion;
         this.capacidad = capacidad;
     }
+    
+      public int getDuracion() {
+        return duracion;
+    }
+
+    public void setDuracion(int duracion) {
+        this.duracion = duracion;
+    }
+
+    public int getCapacidad() {
+        return capacidad;
+    }
+
+    public void setCapacidad(int capacidad) {
+        this.capacidad = capacidad;
+    }
 }
