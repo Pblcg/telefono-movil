@@ -9,4 +9,16 @@ public class TelefonoMovil {
        this.marca = marca;
        this.almacenamiento = almacenamiento;
     }
+    
+    public String getMarca() {
+        return marca;
+    }
+
+    public int getAlmacenamiento() {
+        return almacenamiento;
+    }
+
+    public Bateria getBateria() {
+        return bateria;
+    }
 }
