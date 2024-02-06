@@ -22,4 +22,8 @@ public class Bateria{
     public void setCapacidad(int capacidad) {
         this.capacidad = capacidad;
     }
+    
+    public void imprimirDetalles(){
+        System.out.println("Duración: "+duracion+" horas | Capacidad: "+capacidad+"mAh");
+    }
 }
