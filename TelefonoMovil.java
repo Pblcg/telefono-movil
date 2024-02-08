@@ -35,4 +35,11 @@ public class TelefonoMovil {
         bateria.setDuracion(newDuracion);
         bateria.setCapacidad(newCapacidad);
     }
+    
+    public void imprimirDetalles(){
+        System.out.println("Marca: "+marca);
+        System.out.println("Almacenamiento: "+almacenamiento);
+        System.out.println("Duración de la batería: "+bateria.duracion);
+        System.out.println("Capacidad de la batería: "+bateria.capacidad);
+    }
 }
