@@ -5,9 +5,10 @@ public class TelefonoMovil {
     private Bateria bateria;
     
     /**Commit 5*/
-    public TelefonoMovil(String marca, int almacenamiento){
+    public TelefonoMovil(String marca, int almacenamiento, int duracion, int capacidad){
        this.marca = marca;
        this.almacenamiento = almacenamiento;
+       this.bateria = new Bateria(duracion, capacidad);
     }
     
     public String getMarca() {
@@ -20,5 +21,18 @@ public class TelefonoMovil {
 
     public Bateria getBateria() {
         return bateria;
+    }
+    
+    public void setMarca(String newMarca) {
+        marca = newMarca;
+    }
+    
+    public void setAlmacenamiento(int newAlmacenamiento) {
+        almacenamiento = newAlmacenamiento;
+    }
+    
+    public void setBateria(int newDuracion, int newCapacidad) {
+        bateria.setDuracion(newDuracion);
+        bateria.setCapacidad(newCapacidad);
     }
 }
